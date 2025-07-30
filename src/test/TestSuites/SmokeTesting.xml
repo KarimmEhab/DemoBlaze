@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="DemoBlaze UI Suite" verbose="1">
+    <listeners>
+        <listener class-name="utils.AllureListener"/>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+
+    <test name="Home page header UI">
+        <classes>
+            <class name="tests.HomePageTestUi">
+                <methods>
+                    <include name="HomeHeaderTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Home page categories UI">
+        <classes>
+            <class name="tests.HomePageTestUi">
+                <methods>
+                    <include name="HomeCategoriesTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+</suite>

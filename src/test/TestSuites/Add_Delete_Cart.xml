@@ -1,0 +1,21 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="DemoBlaze Functional Test Suite">
+    <listeners>
+        <listener class-name="utils.AllureListener"/>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+
+    <test name="Add Products and Verify Cart">
+        <classes>
+            <class name="tests.AddToCartTest"/>
+        </classes>
+    </test>
+
+    <test name="Delete Product from Cart">
+        <classes>
+            <class name="tests.DeleteFromCartTest"/>
+        </classes>
+    </test>
+
+</suite>

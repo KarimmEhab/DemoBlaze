@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0f297c65-a047-418d-89dd-9d72a4d24074" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/pageobjects/SignUp_Login.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2ysHHeaGioh1gH9AzibkEDCKpJA" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.HomePage.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SignUp.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Maven.DemoBlaze [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.DemoBlaze [verify].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TestNG.AboutUsTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AboutUsTest.isVideoPlayed.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddToCartTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddToCartTest.testAddProducts.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddToCartTest.verifyAddedProductsInCart.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ContactTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.D:/New folder (3)/DemoBlaze/src/SmokeTesting.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.D:/New folder (3)/DemoBlaze/src/test/Signup_Login.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.D:/New folder (3)/DemoBlaze/src/test/TestNG.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.D:/New folder (3)/DemoBlaze/src/test/TestSuites/AddToCart.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.D:/New folder (3)/DemoBlaze/src/test/TestSuites/Add_Delete_Cart.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.D:/New folder (3)/DemoBlaze/src/test/TestSuites/Contact.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.D:/New folder (3)/DemoBlaze/src/test/TestSuites/Contact_AboutUs.xml (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.D:/New folder (3)/DemoBlaze/src/test/TestSuites/Contact_AboutUs.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.D:/New folder (3)/DemoBlaze/src/test/TestSuites/E2E.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.D:/New folder (3)/DemoBlaze/src/test/TestSuites/E2ETest.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.D:/New folder (3)/DemoBlaze/src/test/TestSuites/FullRegressionTesting.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.D:/New folder (3)/DemoBlaze/src/test/TestSuites/Login_Logout.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.D:/New folder (3)/DemoBlaze/src/test/TestSuites/PlaceOrder.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.D:/New folder (3)/DemoBlaze/src/test/TestSuites/Signup.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.D:/New folder (3)/DemoBlaze/src/test/TestSuites/Signup_Login.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.D:/New folder (3)/DemoBlaze/src/test/TestSuites/SmokeTesting.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.D:/New folder (3)/DemoBlaze/src/test/Testsuites.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.HomePageUI.CategoriesUI.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.HomePageUI.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.HomePageUI.navbarUI.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Login.loginSuccessTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginFunctionality.IncorrectUser.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginPage.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest.LoginSuccessTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest.logOut.executor&quot;: &quot;Debug&quot;,
+    &quot;TestNG.PlaceOrderTest.NegativeTestPlaceOrder.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PlaceOrderTest.PlaceOrderWithInvalidData.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PlaceOrderTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PlaceOrderTest.placeOrderWithEmptyCart.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PlaceOrderTest.testPlaceOrder.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RegressionTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignUp.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignUpTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignUpTest.signupWithExistingUserTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignUp_Login.executor&quot;: &quot;Run&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/New folder (3)/DemoBlaze&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/New folder (3)/DemoBlaze/src/main/java/karimehab/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.externalTools&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.2626953&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\New folder (3)\DemoBlaze\src\test\TestSuites" />
+      <recent name="D:\New folder (3)\DemoBlaze\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\New folder (3)\DemoBlaze\src\test\TestSuites" />
+      <recent name="D:\New folder (3)\DemoBlaze\src\test\java" />
+      <recent name="D:\New folder (3)\DemoBlaze\src\test" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="base" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.AddToCartTest">
+    <configuration name="AddToCartTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemoBlaze" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.AddToCartTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContactTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemoBlaze" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ContactTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlaceOrderTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemoBlaze" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.PlaceOrderTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlaceOrderTest.PlaceOrderWithInvalidData" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemoBlaze" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.PlaceOrderTest" />
+      <option name="METHOD_NAME" value="PlaceOrderWithInvalidData" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlaceOrderTest.placeOrderWithEmptyCart" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemoBlaze" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.PlaceOrderTest" />
+      <option name="METHOD_NAME" value="placeOrderWithEmptyCart" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.AddToCartTest" />
+      <item itemvalue="TestNG.PlaceOrderTest.PlaceOrderWithInvalidData" />
+      <item itemvalue="TestNG.PlaceOrderTest.placeOrderWithEmptyCart" />
+      <item itemvalue="TestNG.ContactTest" />
+      <item itemvalue="TestNG.PlaceOrderTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.AddToCartTest" />
+        <item itemvalue="TestNG.PlaceOrderTest.PlaceOrderWithInvalidData" />
+        <item itemvalue="TestNG.ContactTest" />
+        <item itemvalue="TestNG.PlaceOrderTest.placeOrderWithEmptyCart" />
+        <item itemvalue="TestNG.PlaceOrderTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0f297c65-a047-418d-89dd-9d72a4d24074" name="Changes" comment="" />
+      <created>1750616282257</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1750616282257</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pageobjects/LoginFunctionality.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/karimehab/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/test/java/base/BaseTest</url>
+          <line>18</line>
+          <properties field="wait" class="base.BaseTest" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/LoginTest.java</url>
+          <line>46</line>
+          <properties class="tests.LoginTest" method="LoginSuccessTest">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

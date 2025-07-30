@@ -1,0 +1,17 @@
+[
+  {
+    "username": "karimehab",
+    "password": "karim123",
+    "expectedMessage": ""
+  },
+  {
+    "username": "IncorrectUser",
+    "password": "karim123",
+    "expectedMessage": "User does not exist."
+  },
+  {
+    "username": "karimehab",
+    "password": "wrongPass",
+    "expectedMessage": "Wrong password."
+  }
+]

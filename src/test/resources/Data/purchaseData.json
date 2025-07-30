@@ -1,0 +1,32 @@
+[
+  {
+    "testName": "Purchase Successfully",
+    "name": "Karim",
+    "country": "Egypt",
+    "city": "Giza",
+    "card": "123456789",
+    "month": "07",
+    "year": "2025",
+    "expectedResult": "Success"
+  },
+  {
+    "testName": "Empty Fields",
+    "name": "",
+    "country": "",
+    "city": "",
+    "card": "",
+    "month": "",
+    "year": "",
+    "expectedResult": "Failure - Empty Fields"
+  },
+  {
+    "testName": "Invalid Data",
+    "name": "273",
+    "country": "Egypt",
+    "city": "Giza",
+    "card": "karim",
+    "month": "07",
+    "year": "2025",
+    "expectedResult": "Failure - Invalid Data"
+  }
+]

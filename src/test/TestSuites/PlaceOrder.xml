@@ -1,0 +1,68 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="DemoBlaze Functional Test Suite">
+
+    <listeners>
+        <listener class-name="utils.AllureListener"/>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+
+    <test name="Purchase Successfully">
+        <parameter name="name" value="Karim"/>
+        <parameter name="country" value="Egypt"/>
+        <parameter name="city" value="Giza"/>
+        <parameter name="card" value="123456789"/>
+        <parameter name="month" value="07"/>
+        <parameter name="year" value="2025"/>
+        <classes>
+            <class name="tests.PlaceOrderTest">
+                <methods>
+                    <include name="testPlaceOrder"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Purchase Failed (EMPTY)">
+        <parameter name="EmptyName" value=""/>
+        <parameter name="country" value="Egypt"/>
+        <parameter name="city" value="Giza"/>
+        <parameter name="EmptyCard" value=""/>
+        <parameter name="month" value="07"/>
+        <parameter name="year" value="2025"/>
+        <classes>
+            <class name="tests.PlaceOrderTest">
+                <methods>
+                    <include name="PlaceOrderWithEmptyData"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Purchase Failed (INVALID)">
+        <parameter name="invalidName" value="273"/>
+        <parameter name="country" value="Egypt"/>
+        <parameter name="city" value="Giza"/>
+        <parameter name="invalidCard" value="karim"/>
+        <parameter name="month" value="07"/>
+        <parameter name="year" value="2025"/>
+        <classes>
+            <class name="tests.PlaceOrderTest">
+                <methods>
+                    <include name="PlaceOrderWithInvalidData"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Purchase With Empty Card">
+        <classes>
+            <class name="tests.PlaceOrderTest">
+                <methods>
+                    <include name="placeOrderWithEmptyCart"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

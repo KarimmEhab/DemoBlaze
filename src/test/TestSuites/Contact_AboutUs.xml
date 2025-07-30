@@ -1,0 +1,21 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="DemoBlaze Functional Test Suite">
+    <listeners>
+        <listener class-name="utils.AllureListener"/>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+
+    <test name="Contact">
+        <classes>
+            <class name="tests.ContactTest"/>
+        </classes>
+    </test>
+
+    <test name="About Us">
+        <classes>
+            <class name="tests.AboutUsTest"/>
+        </classes>
+    </test>
+
+</suite>

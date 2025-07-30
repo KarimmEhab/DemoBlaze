@@ -1,0 +1,153 @@
+2025-07-30 22:56:22 [main] INFO  - ========= Starting E2E Test for User: karimehab =========
+2025-07-30 22:56:22 [main] INFO  - Attempting to log in
+2025-07-30 23:02:20 [main] INFO  - ========= Starting E2E Test for User: karimehab =========
+2025-07-30 23:02:20 [main] INFO  - Attempting to log in
+2025-07-30 23:02:25 [main] INFO  - Opening cart
+2025-07-30 23:02:26 [main] INFO  - Placing the order
+2025-07-30 23:04:08 [main] INFO  - ========= Starting E2E Test for User: karimehab =========
+2025-07-30 23:04:08 [main] INFO  - Attempting to log in
+2025-07-30 23:04:14 [main] INFO  - Opening cart
+2025-07-30 23:04:14 [main] INFO  - Placing the order
+2025-07-30 23:04:16 [main] INFO  - Confirming the order
+2025-07-30 23:04:16 [main] INFO  - Logging out
+2025-07-30 23:05:59 [main] INFO  - ========= Starting E2E Test for User: karimehab =========
+2025-07-30 23:05:59 [main] INFO  - Attempting to log in
+2025-07-30 23:06:04 [main] INFO  - Opening cart
+2025-07-30 23:06:05 [main] INFO  - Placing the order
+2025-07-30 23:06:06 [main] INFO  - Confirming the order
+2025-07-30 23:06:06 [main] INFO  - Logging out
+2025-07-30 23:08:53 [main] INFO  - ========= Starting E2E Test for User: karimehab =========
+2025-07-30 23:08:53 [main] INFO  - Attempting to log in
+2025-07-30 23:08:58 [main] INFO  - Opening cart
+2025-07-30 23:08:59 [main] INFO  - Placing the order
+2025-07-30 23:09:00 [main] INFO  - Confirming the order
+2025-07-30 23:09:00 [main] INFO  - Logging out
+2025-07-30 23:10:07 [main] INFO  - ========= Starting E2E Test for User: karimehab =========
+2025-07-30 23:10:07 [main] INFO  - Attempting to log in
+2025-07-30 23:10:13 [main] INFO  - Opening cart
+2025-07-30 23:10:13 [main] INFO  - Placing the order
+2025-07-30 23:10:14 [main] INFO  - Confirming the order
+2025-07-30 23:10:16 [main] INFO  - Logging out
+2025-07-30 23:10:39 [main] INFO  - ========= Starting E2E Test for User: karimehab =========
+2025-07-30 23:10:39 [main] INFO  - Attempting to log in
+2025-07-30 23:10:44 [main] INFO  - Opening cart
+2025-07-30 23:10:45 [main] INFO  - Placing the order
+2025-07-30 23:10:46 [main] INFO  - Confirming the order
+2025-07-30 23:10:54 [main] INFO  - Logging out
+2025-07-30 23:18:12 [main] INFO  - ========= Starting E2E Test for User: karimehab =========
+2025-07-30 23:18:12 [main] INFO  - Attempting to log in
+2025-07-30 23:18:17 [main] INFO  - Opening cart
+2025-07-30 23:18:17 [main] INFO  - Placing the order
+2025-07-30 23:18:18 [main] INFO  - Confirming the order
+2025-07-30 23:19:18 [main] INFO  - ========= Starting E2E Test for User: karimehab =========
+2025-07-30 23:19:18 [main] INFO  - Attempting to log in
+2025-07-30 23:19:23 [main] INFO  - Opening cart
+2025-07-30 23:19:24 [main] INFO  - Placing the order
+2025-07-30 23:19:25 [main] INFO  - Confirming the order
+2025-07-30 23:21:27 [main] INFO  - ========= Starting E2E Test for User: karimehab =========
+2025-07-30 23:21:27 [main] INFO  - Attempting to log in
+2025-07-30 23:21:32 [main] INFO  - Opening cart
+2025-07-30 23:21:33 [main] INFO  - Placing the order
+2025-07-30 23:21:34 [main] INFO  - Confirming the order
+2025-07-30 23:21:42 [main] INFO  - Logging out
+2025-07-30 23:21:43 [main] INFO  - ========= Test Completed for User: karimehab =========
+2025-07-30 23:32:59 [main] INFO  - ========= Starting E2E Test for User: karimehab =========
+2025-07-30 23:32:59 [main] INFO  - Attempting to log in
+2025-07-30 23:33:06 [main] INFO  - Opening cart
+2025-07-30 23:33:07 [main] INFO  - Placing the order
+2025-07-30 23:33:37 [main] INFO  - ========= Starting E2E Test for User: karimehab =========
+2025-07-30 23:33:37 [main] INFO  - Attempting to log in
+2025-07-30 23:33:42 [main] INFO  - Opening cart
+2025-07-30 23:33:42 [main] INFO  - Placing the order
+2025-07-30 23:36:01 [main] INFO  - ========= Starting E2E Test for User: karimehab =========
+2025-07-30 23:36:01 [main] INFO  - Attempting to log in
+2025-07-30 23:36:06 [main] INFO  - Opening cart
+2025-07-30 23:36:06 [main] INFO  - Placing the order
+2025-07-30 23:38:31 [main] INFO  - ========= Starting E2E Test for User: karimehab =========
+2025-07-30 23:38:31 [main] INFO  - Attempting to log in
+2025-07-30 23:38:36 [main] INFO  - Opening cart
+2025-07-30 23:38:37 [main] INFO  - Placing the order
+2025-07-30 23:38:38 [main] INFO  - Confirming the order
+2025-07-30 23:39:41 [main] INFO  - ========= Starting E2E Test for User: karimehab =========
+2025-07-30 23:39:41 [main] INFO  - Attempting to log in
+2025-07-30 23:39:47 [main] INFO  - Opening cart
+2025-07-30 23:39:47 [main] INFO  - Placing the order
+2025-07-30 23:39:48 [main] INFO  - Confirming the order
+2025-07-30 23:39:52 [main] INFO  - Logging out
+2025-07-30 23:39:53 [main] INFO  - ========= Test Completed for User: karimehab =========
+2025-07-30 23:40:29 [main] INFO  - ========= Starting E2E Test for User: karimehab =========
+2025-07-30 23:40:29 [main] INFO  - Attempting to log in
+2025-07-30 23:40:34 [main] INFO  - Opening cart
+2025-07-30 23:40:35 [main] INFO  - Placing the order
+2025-07-30 23:40:36 [main] INFO  - Confirming the order
+2025-07-30 23:40:40 [main] INFO  - Logging out
+2025-07-30 23:40:41 [main] INFO  - ========= Test Completed for User: karimehab =========
+2025-07-30 23:51:47 [main] INFO  - ========= Starting E2E Test for User: karimehab =========
+2025-07-30 23:51:47 [main] INFO  - Attempting to log in
+2025-07-30 23:51:55 [main] INFO  - Opening cart
+2025-07-30 23:51:56 [main] INFO  - Placing the order
+2025-07-30 23:51:57 [main] INFO  - Confirming the order
+2025-07-30 23:52:01 [main] INFO  - Logging out
+2025-07-30 23:52:02 [main] INFO  - ========= Test Completed for User: karimehab =========
+2025-07-31 00:38:18 [main] INFO  - ==== Starting HomeUI Test ====
+2025-07-31 00:38:18 [main] INFO  - Verifying page title...
+2025-07-31 00:38:18 [main] INFO  - Checking if logo is displayed...
+2025-07-31 00:38:18 [main] INFO  - Verifying navbar item: Home
+2025-07-31 00:38:18 [main] INFO  - Verifying navbar item: Contact
+2025-07-31 00:38:19 [main] INFO  - Verifying navbar item: About us
+2025-07-31 00:38:19 [main] INFO  - Verifying navbar item: Cart
+2025-07-31 00:38:19 [main] INFO  - Verifying navbar item: Log in
+2025-07-31 00:38:20 [main] INFO  - Verifying navbar item: Sign up
+2025-07-31 00:38:20 [main] INFO  - Clicking previous slide in carousel...
+2025-07-31 00:38:20 [main] INFO  - Clicking next slide in carousel...
+2025-07-31 00:38:20 [main] INFO  - Clicking on 'Laptops' category...
+2025-07-31 00:38:20 [main] INFO  - Clicking on 'Phones' category...
+2025-07-31 00:38:21 [main] INFO  - Clicking on 'Monitors' category...
+2025-07-31 00:44:12 [main] INFO  - ==== Starting HomeUI Test ====
+2025-07-31 00:44:12 [main] INFO  - Verifying page title...
+2025-07-31 00:44:12 [main] INFO  - Checking if logo is displayed...
+2025-07-31 00:44:12 [main] INFO  - Verifying navbar item: Home
+2025-07-31 00:44:12 [main] INFO  - Verifying navbar item: Contact
+2025-07-31 00:44:12 [main] INFO  - Verifying navbar item: About us
+2025-07-31 00:44:13 [main] INFO  - Verifying navbar item: Cart
+2025-07-31 00:44:13 [main] INFO  - Verifying navbar item: Log in
+2025-07-31 00:44:13 [main] INFO  - Verifying navbar item: Sign up
+2025-07-31 00:44:14 [main] INFO  - Clicking previous slide in carousel...
+2025-07-31 00:44:14 [main] INFO  - Clicking next slide in carousel...
+2025-07-31 00:44:14 [main] INFO  - Clicking on 'Laptops' category...
+2025-07-31 00:44:14 [main] INFO  - Clicking on 'Phones' category...
+2025-07-31 00:44:14 [main] INFO  - Clicking on 'Monitors' category...
+2025-07-31 00:48:23 [main] INFO  - ==== Starting HomeUI Test ====
+2025-07-31 00:48:23 [main] INFO  - Verifying page title...
+2025-07-31 00:48:23 [main] INFO  - Checking if logo is displayed...
+2025-07-31 00:48:23 [main] INFO  - Verifying navbar item: Home
+2025-07-31 00:48:23 [main] INFO  - Verifying navbar item: Contact
+2025-07-31 00:48:24 [main] INFO  - Verifying navbar item: About us
+2025-07-31 00:48:24 [main] INFO  - Verifying navbar item: Cart
+2025-07-31 00:48:24 [main] INFO  - Verifying navbar item: Log in
+2025-07-31 00:48:25 [main] INFO  - Verifying navbar item: Sign up
+2025-07-31 00:48:25 [main] INFO  - Clicking previous slide in carousel...
+2025-07-31 00:48:25 [main] INFO  - Clicking next slide in carousel...
+2025-07-31 00:48:25 [main] INFO  - Clicking on 'Laptops' category...
+2025-07-31 00:48:25 [main] INFO  - Clicking on 'Phones' category...
+2025-07-31 00:48:26 [main] INFO  - Clicking on 'Monitors' category...
+2025-07-31 00:48:26 [main] INFO  - Clicking on 'Prev' category navigation...
+2025-07-31 00:48:26 [main] INFO  - Clicking on 'Next' category navigation...
+2025-07-31 00:48:26 [main] INFO  - ====== HomeUI Test Completed ======
+2025-07-31 00:55:50 [main] INFO  - ==== Starting HomeUI Test ====
+2025-07-31 00:55:50 [main] INFO  - Verifying page title...
+2025-07-31 00:55:50 [main] INFO  - Checking if logo is displayed...
+2025-07-31 00:55:50 [main] INFO  - Verifying navbar item: Home
+2025-07-31 00:55:50 [main] INFO  - Verifying navbar item: Contact
+2025-07-31 00:55:52 [main] INFO  - Verifying navbar item: About us
+2025-07-31 00:55:53 [main] INFO  - Verifying navbar item: Cart
+2025-07-31 00:55:53 [main] INFO  - Verifying navbar item: Log in
+2025-07-31 00:55:53 [main] INFO  - Verifying navbar item: Sign up
+2025-07-31 00:55:54 [main] INFO  - Clicking previous slide in carousel...
+2025-07-31 00:55:54 [main] INFO  - Clicking next slide in carousel...
+2025-07-31 00:55:54 [main] INFO  - Clicking on 'Laptops' category...
+2025-07-31 00:55:54 [main] INFO  - Clicking on 'Phones' category...
+2025-07-31 00:55:54 [main] INFO  - Clicking on 'Monitors' category...
+2025-07-31 00:55:54 [main] INFO  - Clicking on 'Prev' category navigation...
+2025-07-31 00:55:54 [main] INFO  - Clicking on 'Next' category navigation...
+2025-07-31 00:55:54 [main] INFO  - ====== HomeUI Test Completed ======

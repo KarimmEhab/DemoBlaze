@@ -8,10 +8,16 @@ import java.util.*;
 
 public class JsonDataReader {
 
-    public static List<HashMap<String, String>> getJsonData(String filePath) throws IOException {
+    public static List<HashMap<String, String>> getStringJsonData(String filePath) throws IOException {
         InputStream is = new FileInputStream(filePath);
         ObjectMapper mapper = new ObjectMapper();
         return mapper.readValue(is, new TypeReference<List<HashMap<String, String>>>() {});
+    }
+
+    public static List<HashMap<String, Object>> getObjectJsonData(String filePath) throws IOException {
+        InputStream is = new FileInputStream(filePath);
+        ObjectMapper mapper = new ObjectMapper();
+        return mapper.readValue(is, new TypeReference<List<HashMap<String, Object>>>() {});
     }
 
     public static String getJsonPath(String fileName) {

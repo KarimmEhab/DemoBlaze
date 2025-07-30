@@ -1,48 +1,37 @@
 package pageobjects;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-public class ProductsAtHomePage {
-    HomePageCategories categories ;
+public class AddProducts {
+    HomePage categories;
     WebDriver driver;
     WebDriverWait wait;
     JavascriptExecutor js;
 
-    public ProductsAtHomePage(WebDriver driver) {
+    // ==== Locators ====
+    private final By homeBtn = By.partialLinkText("Home");
+    private final By firstProduct = By.xpath("//a[contains(text(),'Samsung galaxy s7')]");
+    private final By secondProduct = By.xpath("//a[contains(text(),'MacBook air')]");
+    private final By addProduct = By.cssSelector(".btn-success");
+
+    public AddProducts(WebDriver driver) {
         this.driver = driver;
         this.js = (JavascriptExecutor) driver;
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        this.categories = new HomePageCategories(driver);
-        PageFactory.initElements(driver, this);
+        this.categories = new HomePage(driver);
     }
 
-    @FindBy(partialLinkText = "Home")
-    WebElement homeBTn;
-
-    @FindBy(xpath = "//a[contains(text(),'Samsung galaxy s7')]")
-    WebElement firstProduct;
-
-    @FindBy(xpath = "//a[contains(text(),'MacBook air')]")
-    WebElement secondProduct;
-
-    @FindBy(css = ".btn-success")
-    WebElement addProduct;
-
-
-//   ========== ACTIONS ========
-
+    //   ========== ACTIONS ========
     public void AddFirstProduct(){
         categories.clickPhones();
-        wait.until(ExpectedConditions.visibilityOf(firstProduct));// choose category
-        js.executeScript("arguments[0].scrollIntoView(true);", firstProduct);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(firstProduct)); // choose category
+        js.executeScript("arguments[0].scrollIntoView(true);", driver.findElement(firstProduct));
 
         // choose first item
         wait.until(ExpectedConditions.elementToBeClickable(firstProduct)).click();
@@ -57,11 +46,11 @@ public class ProductsAtHomePage {
 
     public void AddSecondProduct(){
         // back to home page
-        wait.until(ExpectedConditions.elementToBeClickable(homeBTn)).click();
+        wait.until(ExpectedConditions.elementToBeClickable(homeBtn)).click();
 
         categories.clickLaptops(); // choose category
-        wait.until(ExpectedConditions.visibilityOf(secondProduct));
-        js.executeScript("arguments[0].scrollIntoView(true);", secondProduct);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(secondProduct));
+        js.executeScript("arguments[0].scrollIntoView(true);", driver.findElement(secondProduct));
 
         // choose second item
         wait.until(ExpectedConditions.elementToBeClickable(secondProduct)).click();
@@ -73,6 +62,4 @@ public class ProductsAtHomePage {
         wait.until(ExpectedConditions.alertIsPresent());
         driver.switchTo().alert().accept();
     }
-
-
 }

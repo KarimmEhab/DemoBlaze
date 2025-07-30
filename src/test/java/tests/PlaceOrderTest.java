@@ -6,13 +6,11 @@ import org.testng.Assert;
 import org.testng.annotations.*;
 import pageobjects.CartPage;
 import pageobjects.PlaceOrderPage;
-import pageobjects.ProductsAtHomePage;
-import utils.JsonDataReader;
+import pageobjects.AddProducts;
+import utils.DataProvider.PurchaseDataProvider;
 
-import java.io.IOException;
 import java.lang.reflect.Method;
 import java.util.HashMap;
-import java.util.List;
 
 @Listeners(utils.AllureListener.class)
 public class PlaceOrderTest extends BaseTest {
@@ -21,7 +19,7 @@ public class PlaceOrderTest extends BaseTest {
     public void AddThenNavigate(Method method){
         if (!method.getName().equals("placeOrderWithEmptyCart")) {
             // Add product
-            ProductsAtHomePage productPage = new ProductsAtHomePage(driver);
+            AddProducts productPage = new AddProducts(driver);
             productPage.AddFirstProduct();
         }
             //        Navigate to the cart page
@@ -29,21 +27,10 @@ public class PlaceOrderTest extends BaseTest {
             cartPage.goToCart();
     }
 
-    @DataProvider(name = "placeOrderData")
-    public Object[][] getPurchaseData(Method method) throws IOException {
-        List<HashMap<String, String>> data = JsonDataReader.getJsonData(
-                System.getProperty("user.dir") + JsonDataReader.getJsonPath("purchaseData")
-        );
-        return switch (method.getName()) {
-            case "testPlaceOrder", "placeOrderWithEmptyCart" -> new Object[][]{{data.get(0)}};
-            case "PlaceOrderWithEmptyData" -> new Object[][]{{data.get(1)}};
-            case "PlaceOrderWithInvalidData" -> new Object[][]{{data.get(2)}};
-            default -> new Object[][]{{new HashMap<>()}};
-        };
-    }
 
 
-    @Test(dataProvider = "placeOrderData",priority = 1)
+
+    @Test(dataProvider = "placeOrderData", dataProviderClass = PurchaseDataProvider.class,priority = 1)
     public void testPlaceOrder(HashMap<String, String> input){
 
         PlaceOrderPage placeorder = new PlaceOrderPage(driver);
@@ -61,7 +48,7 @@ public class PlaceOrderTest extends BaseTest {
     }
 
 
-    @Test(dataProvider = "placeOrderData",priority = 2)
+    @Test(dataProvider = "placeOrderData", dataProviderClass = PurchaseDataProvider.class,priority = 2)
     public void PlaceOrderWithEmptyData(HashMap<String, String> input){
         PlaceOrderPage order1 = new PlaceOrderPage(driver);
         order1.clickPlaceOrder();
@@ -81,7 +68,7 @@ public class PlaceOrderTest extends BaseTest {
         }
     }
 
-    @Test(dataProvider = "placeOrderData",priority = 3)
+    @Test(dataProvider = "placeOrderData", dataProviderClass = PurchaseDataProvider.class,priority = 3)
     public void PlaceOrderWithInvalidData(HashMap<String, String> input) {
         PlaceOrderPage order2 = new PlaceOrderPage(driver);
         order2.clickPlaceOrder();
@@ -102,7 +89,7 @@ public class PlaceOrderTest extends BaseTest {
         }
     }
 
-    @Test(dataProvider = "placeOrderData",priority = 4)
+    @Test(dataProvider = "placeOrderData", dataProviderClass = PurchaseDataProvider.class,priority = 4)
     public void placeOrderWithEmptyCart(HashMap<String, String> input) {
         CartPage cart= new CartPage(driver);
         int cartSize = cart.getCartProductsCount();
@@ -121,7 +108,7 @@ public class PlaceOrderTest extends BaseTest {
             String alertText = order3.getAlertText();
             Assert.assertNotNull(alertText, "Expected alert for empty cart.");
         }catch (Exception e) {
-            Assert.fail("Expected alert for empty cart. " + e.getMessage());
+            Assert.fail("Expected alert for empty cart. ");
         }
     }
 

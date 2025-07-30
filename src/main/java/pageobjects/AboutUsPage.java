@@ -1,52 +1,40 @@
 package pageobjects;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.time.Duration;
 
 public class AboutUsPage {
     WebDriver driver;
     WebDriverWait wait;
 
+    // ==== Locators ====
+    private final By aboutUsBtn = By.linkText("About us");
+    private final By video = By.id("example-video_html5_api");
+    private final By closeButton = By.xpath("//button[text()='Close']");
+
     public AboutUsPage(WebDriver driver){
         this.driver = driver;
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        PageFactory.initElements(driver, this);
     }
 
-    @FindBy(linkText = "About us")
-    WebElement aboutUsBtn;
-
-    @FindBy(id = "example-video_html5_api")
-    WebElement video;
-
-    @FindBy(xpath = "//button[text()='Close']")
-    WebElement closeButton;
-
-//================ ACTIONS ================
-
+    //   ========== ACTIONS ========
     public void clickAboutUs() {
         wait.until(ExpectedConditions.elementToBeClickable(aboutUsBtn)).click();
     }
 
     public boolean isVideoDisplayed(){
-        return video.isDisplayed();
-
+        return driver.findElement(video).isDisplayed();
     }
 
     public void playVideo(){
-    //    if(isVideoDisplayed()){
-            video.click();
-      //  }
+        driver.findElement(video).click();
     }
 
     public void closeBtn(){
-        closeButton.click();
+        driver.findElement(closeButton).click();
     }
-
 }

@@ -6,6 +6,12 @@
         <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
     </listeners>
 
+    <test name="Home page UI">
+        <classes>
+            <class name="tests.HomePageUiTest"/>
+        </classes>
+    </test>
+
     <test name="Contact">
         <classes>
             <class name="tests.ContactTest"/>

@@ -1,0 +1,13 @@
+[
+  {
+    "username": "karimehab",
+    "password": "karim123",
+    "products": ["Samsung galaxy s7", "MacBook air"],
+    "name": "Karim",
+    "country": "Egypt",
+    "city": "Cairo",
+    "card": "1234 5678 9012 3456",
+    "month": "07",
+    "year": "2025"
+  }
+]

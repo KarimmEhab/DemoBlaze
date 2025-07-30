@@ -17,5 +17,4 @@
             <class name="tests.DeleteFromCartTest"/>
         </classes>
     </test>
-
 </suite>

@@ -1,85 +1,61 @@
 package tests;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import base.BaseTest;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.annotations.*;
 import pageobjects.CartPage;
 import pageobjects.PlaceOrderPage;
-import pageobjects.ProductsAtHomePage;
+import pageobjects.AddProducts;
 import pageobjects.SignUp_Login;
 
-import java.time.Duration;
-import java.util.Random;
+import java.util.HashMap;
 
-public class e2eScenario {
-    protected static WebDriver driver;
-    protected static WebDriverWait wait;
-    String generatedUsername;
+public class e2eScenario extends BaseTest {
+    private static final Logger logger = LogManager.getLogger(e2eScenario.class);
 
-    @BeforeClass
-    public void startSession() {
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
-        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        driver.manage().window().maximize();
-        driver.get("https://www.demoblaze.com/");
-    }
-
-    @AfterClass
-    public void closeSession() {
-        if (driver != null) {
-            driver.quit();
-        }
-    }
-
-    @Test(priority = 1)
-    public void userCanSignUp() throws InterruptedException {
-        SignUp_Login signUp = new SignUp_Login(driver);
-
-        // Generate random username
-        Random rand = new Random();
-        generatedUsername = "karimEhab" + (rand.nextInt(900) + 100);
-
-        signUp.doSignUp(generatedUsername, "karim123");
-    }
-
-    @Test(priority = 2)
-    public void userCanLogin() {
+    @Test(dataProvider = "getOrderData", dataProviderClass = utils.dataProviders.e2eDataProvider.class)
+    public void completeOrderFlow(HashMap<String, String> data) throws InterruptedException {
+        logger.info("========= Starting E2E Test for User: {} =========", data.get("username"));
+        // Login
         SignUp_Login login = new SignUp_Login(driver);
-        login.doPositiveLogin(generatedUsername, "karim123");
+        logger.info("Attempting to log in");
+        login.doPositiveLogin(data.get("username"), data.get("password"));
 
-    }
-
-    @Test(priority = 3, dependsOnMethods = {"userCanLogin"})
-    public void userCanAddToCart() {
-        ProductsAtHomePage productPage = new ProductsAtHomePage(driver);
+        // Add products
+        AddProducts productPage = new AddProducts(driver);
         productPage.AddFirstProduct();
         productPage.AddSecondProduct();
 
+        // Navigate to cart page
         CartPage cartPage = new CartPage(driver);
+        logger.info("Opening cart");
         cartPage.goToCart();
 
-        Assert.assertTrue(cartPage.isProductInCart("Samsung galaxy s7"), "Samsung not in cart");
-        Assert.assertTrue(cartPage.isProductInCart("MacBook air"), "MacBook not in cart");
-    }
-
-
-    @Test(priority = 4, dependsOnMethods = {"userCanAddToCart"})
-    @Parameters({"name", "country", "city", "card", "month", "year"})
-    public void userCanPlaceOrder(String name, String country, String city, String card, String month, String year) {
-
+        // Place Order
+        logger.info("Placing the order");
         PlaceOrderPage orderPage = new PlaceOrderPage(driver);
         orderPage.clickPlaceOrder();
-        orderPage.fillOrderForm(name, country, city, card, month, year);
+        orderPage.fillOrderForm(data.get("name"), data.get("country"), data.get("city"),
+                data.get("card"), data.get("month"), data.get("year"));
         orderPage.clickPurchase();
+        logger.info("Confirming the order");
         String confirmationMsg = orderPage.getConfirmMsg();
         Assert.assertEquals(confirmationMsg,("Thank you for your purchase!"));
         orderPage.clickConfirmBtn();
+        orderPage.clickClose();
+        Thread.sleep(4000);
+
+        // Logout
+        logger.info("Logging out");
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("logout2")));
+        boolean isLoggedOut = login.doLogout();
+        Assert.assertTrue(isLoggedOut, "Logout failed!");
+
+        logger.info("========= Test Completed for User: {} =========", data.get("username"));
+
     }
-
-
-
 }

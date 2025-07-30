@@ -6,17 +6,10 @@
         <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
     </listeners>
 
-    <parameter name="name" value="Karim"/>
-    <parameter name="country" value="Egypt"/>
-    <parameter name="city" value="Cairo"/>
-    <parameter name="card" value="1234567890123456"/>
-    <parameter name="month" value="07"/>
-    <parameter name="year" value="2027"/>
 
     <test name="Full Regression Testing">
         <classes>
-            <class name="tests.e2eScenario"></class>
-
+            <class name="tests.e2eScenario"/>
         </classes>
     </test>
 

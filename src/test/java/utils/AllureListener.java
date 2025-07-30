@@ -17,21 +17,20 @@ public class AllureListener implements ITestListener {
     @Override
     public void onTestFailure(ITestResult result) {
         try {
-            // تأكد إن الكلاس وارث من BaseTest
             if (result.getInstance() instanceof BaseTest) {
                 WebDriver driver = ((BaseTest) result.getInstance()).getDriver();
 
                 if (driver != null) {
                     takeScreenshot(driver, result.getName());
                 } else {
-                    System.out.println("⚠️ Driver is null - Screenshot skipped");
+                    System.out.println("️ Driver is null - Screenshot skipped");
                 }
             } else {
-                System.out.println("⚠️ Test class doesn't extend BaseTest");
+                System.out.println("️ Test class doesn't extend BaseTest");
             }
 
         } catch (Exception e) {
-            System.err.println("❌ Error capturing screenshot: " + e.getMessage());
+            System.err.println(" Error capturing screenshot: " + e.getMessage());
         }
     }
 
@@ -49,7 +48,7 @@ public class AllureListener implements ITestListener {
             Allure.addAttachment(screenshotName, Files.newInputStream(dest.toPath()));
 
         } catch (IOException e) {
-            System.err.println("❌ Failed to save or attach screenshot: " + e.getMessage());
+            System.err.println(" Failed to save or attach screenshot: " + e.getMessage());
         }
     }
 

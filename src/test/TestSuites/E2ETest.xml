@@ -16,32 +16,6 @@
     <test name="Full Regression Testing">
         <classes>
             <class name="tests.e2eScenario"></class>
-<!--            <class name="tests.SignUpTest" >-->
-<!--                <methods>-->
-<!--                    <include name="signupTest"/>-->
-<!--                </methods>-->
-<!--            </class>-->
-<!--            <class name="tests.LoginTest" >-->
-<!--                <methods>-->
-<!--                    <include name="LoginSuccessTest"/>-->
-<!--                </methods>-->
-<!--            </class>-->
-<!--            <class name="tests.AddToCartTest" >-->
-<!--                <methods>-->
-<!--                    <include name="verifyProductIsPresent"/>-->
-<!--                </methods>-->
-<!--            </class>-->
-<!--            <class name="tests.DeleteFromCartTest"></class>-->
-<!--            <class name="tests.PlaceOrderTest" >-->
-<!--                <methods>-->
-<!--                    <include name="testPlaceOrder"/>-->
-<!--                </methods>-->
-<!--            </class>-->
-<!--            <class name="tests.LoginTest">-->
-<!--                <methods>-->
-<!--                    <include name="logOut"/>-->
-<!--                </methods>-->
-<!--            </class>-->
 
         </classes>
     </test>

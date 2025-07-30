@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f297c65-a047-418d-89dd-9d72a4d24074" name="Changes" comment="" />
+    <list default="true" id="0f297c65-a047-418d-89dd-9d72a4d24074" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/AbstractComponent/AbstractComponents.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/TestSuites/E2ETest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/TestSuites/E2ETest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/AllureListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/AllureListener.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +21,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/pageobjects/SignUp_Login.java" root0="FORCE_HIGHLIGHTING" />

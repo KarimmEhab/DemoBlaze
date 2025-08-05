@@ -70,31 +70,6 @@ public class HomePageUiTest extends BaseTest {
         home.clickNext2();
 
         logger.info("====== HomeUI Test Completed ======");
-
     }
-
-
-//    @Test(priority = 2)
-//    public void HomeCategoriesTest() throws InterruptedException {
-//        HomePage categories = new HomePage(driver);
-//
-//       // Click Categories
-//        logger.info("Clicking on 'Laptops' category...");
-//        categories.clickLaptops();
-//
-//        logger.info("Clicking on 'Phones' category...");
-//        categories.clickPhones();
-//
-//        logger.info("Clicking on 'Monitors' category...");
-//        categories.clickMonitors();
-//
-//
-//        // Click prev & next categories
-//        logger.info("Clicking on 'Prev' category navigation...");
-//        categories.clickPrev2();
-//
-//        logger.info("Clicking on 'Next' category navigation...");
-//        categories.clickNext2();
-//    }
 
 }

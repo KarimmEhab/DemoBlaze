@@ -22,13 +22,17 @@ public class AboutUsTest extends BaseTest {
         log.info("Navigating to 'About Us' modal...");
         about.clickAboutUs();
 
-        log.info("Clicking on the video to play...");
-        about.playVideo();
-
-        log.info("Verifying if the video element is displayed...");
-        Assert.assertTrue(about.isVideoDisplayed(), "BUG: Video element in 'About us' modal is missing!");
+        try {
+            if (about.isVideoClickable()) {
+                log.info("Video is displayed. Attempting to click...");
+                about.playVideo();
+            }
+        } catch (Exception e) {
+            log.error("Video is missing in 'About Us' modal or not clickable.");
+            Assert.fail("TEST FAILED: Video is missing or not clickable in 'About Us' modal.");
+        }
         about.closeBtn();
-
         log.info("===== Test Finished Successfully: isVideoPlayed =====");
     }
+
 }

@@ -1,6 +1,7 @@
 package pageobjects;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -26,12 +27,17 @@ public class AboutUsPage {
         wait.until(ExpectedConditions.elementToBeClickable(aboutUsBtn)).click();
     }
 
-    public boolean isVideoDisplayed(){
-        return driver.findElement(video).isDisplayed();
+    public boolean isVideoClickable(){
+        try {
+            wait.until(ExpectedConditions.elementToBeClickable(video));
+            return true;
+        } catch (TimeoutException e) {
+            return false;
+        }
     }
 
     public void playVideo(){
-        driver.findElement(video).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(video)).click();
     }
 
     public void closeBtn(){

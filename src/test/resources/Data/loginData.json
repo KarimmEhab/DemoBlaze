@@ -5,7 +5,7 @@
     "expectedMessage": ""
   },
   {
-    "username": "IncorrectUser",
+    "username": "wrongUser",
     "password": "karim123",
     "expectedMessage": "User does not exist."
   },

@@ -1,0 +1,28 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="DemoBlaz eFull Testing Test Suite">
+    <listeners>
+        <listener class-name="utils.AllureListener"/>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+
+
+    <test name="Full positive scenario">
+        <classes>
+            <class name="tests.e2ePositiveScenario"/>
+        </classes>
+    </test>
+
+    <test name="Full positive scenario 2">
+        <classes>
+            <class name="tests.e2ePositiveScenario2"/>
+        </classes>
+    </test>
+
+    <test name="Full negative scenario">
+        <classes>
+            <class name="tests.FullNegativeScenario"/>
+        </classes>
+    </test>
+
+</suite>

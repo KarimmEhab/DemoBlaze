@@ -6,14 +6,14 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.annotations.*;
 import pageobjects.SignUp_Login;
-import utils.DataProvider.LoginDataProvider;
+import utils.dataProviders.DataProviders;
 
 import java.util.HashMap;
 
 @Listeners(utils.AllureListener.class)
 public class LoginTest extends BaseTest {
 
-    @Test(dataProvider = "getValidData", dataProviderClass = LoginDataProvider.class, priority = 1)
+    @Test(dataProvider = "getLoginData", dataProviderClass = DataProviders.class, priority = 1)
     public void LoginSuccessTest(HashMap<String, String> input) {
         SignUp_Login login = new SignUp_Login(driver);
         login.doPositiveLogin(input.get("username"), input.get("password"));
@@ -22,7 +22,7 @@ public class LoginTest extends BaseTest {
         Assert.assertEquals(actualUserName, expectedUserName);
     }
 
-    @Test(dataProvider = "getInvalidData",dataProviderClass = LoginDataProvider.class, priority = 2)
+    @Test(dataProvider = "getLoginData",dataProviderClass = DataProviders.class, priority = 2)
     public void NegativeLoginTest(HashMap<String, String> input) {
         SignUp_Login login = new SignUp_Login(driver);
         String actualAlert = login.doNegativeLogin(input.get("username"), input.get("password"));
@@ -30,8 +30,8 @@ public class LoginTest extends BaseTest {
     }
 
 
-    @Test(dataProvider = "getValidData", dataProviderClass = LoginDataProvider.class, priority = 3)
-    public void logOut(HashMap<String, String> input) {
+    @Test(dataProvider = "getLoginData", dataProviderClass = DataProviders.class, priority = 3)
+    public void Logout(HashMap<String, String> input) {
         SignUp_Login login = new SignUp_Login(driver);
         login.doPositiveLogin(input.get("username"), input.get("password"));
 

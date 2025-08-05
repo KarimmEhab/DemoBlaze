@@ -7,7 +7,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageobjects.CartPage;
 import pageobjects.AddProducts;
-import utils.DataProvider.CartProductsDataProvider;
+import utils.dataProviders.DataProviders;
 
 import java.util.HashMap;
 import java.util.List;
@@ -30,10 +30,11 @@ public class AddToCartTest extends BaseTest {
     }
 
 
-    @Test(dataProvider = "getCartProducts", dataProviderClass = CartProductsDataProvider.class)
-    public void verifyProductIsPresent(HashMap<String, Object> data) {
+    @Test(dataProvider = "getCartProducts", dataProviderClass = DataProviders.class)
+    public void verifyProductIsPresent(HashMap<String, Object> data, String ProductName) {
         logger.info("===== Starting verifyProductIsPresent test =====");
         CartPage cartPage = prepareCartWithTwoProducts();
+        cartPage.isProductInCart(ProductName);
 
         List<String> expectedProducts = (List<String>) data.get("products");
         for (String product : expectedProducts) {

@@ -28,13 +28,12 @@ public class CartPage {
     // ================= ACTIONS ===============
 
     public void goToCart(){
-        wait.until(ExpectedConditions.visibilityOfElementLocated(cart));
         wait.until(ExpectedConditions.elementToBeClickable(cart)).click();
     }
 
     // check if product exists in cart
     public boolean isProductInCart(String ProductName){
-        List<WebElement> products = wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(productNameInCart));
+        List<WebElement> products = wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(deleteBtn));
 
         // enhanced for loop to check all products
         for(WebElement items : products){
@@ -49,8 +48,16 @@ public class CartPage {
     public String deleteFirstProduct(){
         List<WebElement> products = wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(productNameInCart));
         String deletedProduct = products.get(0).getText();
-        wait.until(ExpectedConditions.elementToBeClickable(deleteBtn)).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(deleteBtn)).click();
         return deletedProduct;
+    }
+    public void deleteAllProduct(){
+        List<WebElement> products = wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(productNameInCart));
+        while (products.size() > 0) {
+           wait.until(ExpectedConditions.visibilityOfElementLocated(deleteBtn)).click();
+           wait.until(ExpectedConditions.numberOfElementsToBeLessThan(productNameInCart, products.size()));
+           products = driver.findElements(productNameInCart);
+       }
     }
 
     // confirm that product is removed from cart

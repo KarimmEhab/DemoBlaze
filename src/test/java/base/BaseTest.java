@@ -28,12 +28,12 @@ public class BaseTest {
     }
 
     public WebDriver intializeDriver() throws IOException {
-//         choose the browser
         // properties class
         Properties prop = new Properties();
         FileInputStream fis = new FileInputStream(System.getProperty("user.dir") + "/src/main/resources/GlobalData.properties");
         prop.load(fis);
 
+        // choose the browser
         String browserName = prop.getProperty("browser");
         if (browserName.equalsIgnoreCase("chrome")){
             WebDriverManager.chromedriver().setup();

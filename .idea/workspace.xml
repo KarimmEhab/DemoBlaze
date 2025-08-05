@@ -5,33 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f297c65-a047-418d-89dd-9d72a4d24074" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Data/cartProductsData.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/e2ePositiveScenario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/testSuites/TestNG.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/test-execution.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/test-execution.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pageobjects/AboutUsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageobjects/AboutUsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageobjects/AddProducts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageobjects/AddProducts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pageobjects/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageobjects/CartPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pageobjects/ContactPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageobjects/ContactPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageobjects/HomePageCategories.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageobjects/HomePageHeader.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pageobjects/PlaceOrderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageobjects/PlaceOrderPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageobjects/ProductsAtHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageobjects/AddProducts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pageobjects/SignUp_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageobjects/SignUp_Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/TestSuites/Add_Delete_Cart.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/TestSuites/Add_Delete_Cart.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/TestSuites/Contact_AboutUs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/TestSuites/HomeUi_Contact_AboutUs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/TestSuites/E2ETest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/TestSuites/E2ETest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/TestSuites/PlaceOrder.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/TestSuites/PlaceOrder.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/TestSuites/Signup.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/TestSuites/Signup_Login.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/TestSuites/SmokeTesting.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/TestSuites/Add_Delete_Cart.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/TestSuites/E2ETest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/TestSuites/HomeUi_Contact_AboutUs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/testSuites/HomeUi_Contact_AboutUs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/TestSuites/PlaceOrder.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/TestSuites/Signup_Login.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/AboutUsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/AboutUsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/AddToCartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/AddToCartTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/ContactTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ContactTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/DeleteFromCartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/DeleteFromCartTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/HomePageTestUi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/HomePageUiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/HomePageUiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/HomePageUiTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/PlaceOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/PlaceOrderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/SignUpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SignUpTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/e2eScenario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/e2eScenario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/JsonDataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/JsonDataReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Data/cartProducts.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/e2eScenario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/DataProvider/CartProductsDataProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/DataProvider/ContactDataProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/DataProvider/LoginDataProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/DataProvider/PurchaseDataProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/DataProvider/e2eDataProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Data/contactData.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Data/contactData.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Data/loginData.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Data/loginData.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +78,7 @@
     "Maven.DemoBlaze [verify].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "TestNG.AboutUsTest.executor": "Run",
     "TestNG.AboutUsTest.isVideoPlayed.executor": "Run",
     "TestNG.AddToCartTest.executor": "Run",
@@ -81,6 +86,7 @@
     "TestNG.AddToCartTest.verifyAddedProductsInCart.executor": "Run",
     "TestNG.AddToCartTest.verifyProductIsPresent.executor": "Run",
     "TestNG.ContactTest.executor": "Run",
+    "TestNG.ContactTest.validContactFormTest.executor": "Run",
     "TestNG.D:/New folder (3)/DemoBlaze/src/SmokeTesting.xml.executor": "Run",
     "TestNG.D:/New folder (3)/DemoBlaze/src/test/Signup_Login.xml.executor": "Run",
     "TestNG.D:/New folder (3)/DemoBlaze/src/test/TestNG.xml.executor": "Run",
@@ -100,6 +106,19 @@
     "TestNG.D:/New folder (3)/DemoBlaze/src/test/TestSuites/Signup_Login.xml.executor": "Run",
     "TestNG.D:/New folder (3)/DemoBlaze/src/test/TestSuites/SmokeTesting.xml.executor": "Run",
     "TestNG.D:/New folder (3)/DemoBlaze/src/test/Testsuites.xml.executor": "Run",
+    "TestNG.D:/New folder (3)/DemoBlaze/src/test/testSuites/E2ETest.xml.executor": "Run",
+    "TestNG.D:/New folder (3)/DemoBlaze/src/test/testSuites/HomeUi_Contact_AboutUs.xml.executor": "Run",
+    "TestNG.FullNegativeScenario.NegativeLoginTest.executor": "Run",
+    "TestNG.FullNegativeScenario.PlaceOrderWithEmptyData.executor": "Run",
+    "TestNG.FullNegativeScenario.executor": "Run",
+    "TestNG.FullNegativeScenario.placeOrderWithEmptyCart.executor": "Run",
+    "TestNG.FullNegativeScenario2.PlaceOrderWithEmptyData.executor": "Run",
+    "TestNG.FullNegativeScenario2.executor": "Run",
+    "TestNG.FullNegativeScenario2.isVideoPlayed.executor": "Run",
+    "TestNG.FullNegativeScenario2.placeOrderWithEmptyCart.executor": "Run",
+    "TestNG.FullNegativeScenarios.NegativeLoginTest.executor": "Run",
+    "TestNG.FullNegativeScenarios.executor": "Run",
+    "TestNG.FullNegativeScenarios.placeOrderWithEmptyCart.executor": "Run",
     "TestNG.HomePageUI.CategoriesUI.executor": "Run",
     "TestNG.HomePageUI.executor": "Run",
     "TestNG.HomePageUI.navbarUI.executor": "Run",
@@ -108,9 +127,11 @@
     "TestNG.LoginFunctionality.IncorrectUser.executor": "Run",
     "TestNG.LoginPage.executor": "Run",
     "TestNG.LoginTest.LoginSuccessTest.executor": "Run",
+    "TestNG.LoginTest.NegativeLoginTest.executor": "Run",
     "TestNG.LoginTest.executor": "Run",
     "TestNG.LoginTest.logOut.executor": "Debug",
     "TestNG.PlaceOrderTest.NegativeTestPlaceOrder.executor": "Run",
+    "TestNG.PlaceOrderTest.PlaceOrderSuccessfully.executor": "Run",
     "TestNG.PlaceOrderTest.PlaceOrderWithInvalidData.executor": "Run",
     "TestNG.PlaceOrderTest.executor": "Run",
     "TestNG.PlaceOrderTest.placeOrderWithEmptyCart.executor": "Run",
@@ -120,7 +141,12 @@
     "TestNG.SignUpTest.executor": "Run",
     "TestNG.SignUpTest.signupWithExistingUserTest.executor": "Run",
     "TestNG.SignUp_Login.executor": "Run",
+    "TestNG.e2ePositiveScenario2.completeOrderFlow2.executor": "Run",
+    "TestNG.e2ePositiveScenario2.executor": "Run",
+    "TestNG.e2ePositiveScenario2.validContactFormTest.executor": "Run",
     "TestNG.e2eScenario.executor": "Run",
+    "TestNG.e2eScenario.fullScenarioTest.executor": "Run",
+    "TestNG.tests.FullNegativeScenarios,signupWithExistingUserTest and 1 more.executor": "Run",
     "full.screen.before.presentation.mode": "false",
     "last_opened_file_path": "D:/New folder (3)/DemoBlaze",
     "onboarding.tips.debug.path": "D:/New folder (3)/DemoBlaze/src/main/java/karimehab/Main.java",
@@ -148,8 +174,8 @@
       <recent name="base" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/New folder (3)/DemoBlaze/src/test/TestSuites/PlaceOrder.xml">
-    <configuration name="AboutUsTest.isVideoPlayed" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.FullNegativeScenario">
+    <configuration name="FullNegativeScenario" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoBlaze" />
       <extension name="coverage">
         <pattern>
@@ -158,8 +184,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.AboutUsTest" />
-      <option name="METHOD_NAME" value="isVideoPlayed" />
+      <option name="MAIN_CLASS_NAME" value="tests.FullNegativeScenario" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FullNegativeScenario.PlaceOrderWithEmptyData" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemoBlaze" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.FullNegativeScenario" />
+      <option name="METHOD_NAME" value="PlaceOrderWithEmptyData" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -167,37 +210,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D:/New folder (3)/DemoBlaze/src/test/TestSuites/HomeUiTesting.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DemoBlaze" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/TestSuites/HomeUiTesting.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="D:/New folder (3)/DemoBlaze/src/test/TestSuites/HomeUi_Contact_AboutUs.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DemoBlaze" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/TestSuites/HomeUi_Contact_AboutUs.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="D:/New folder (3)/DemoBlaze/src/test/TestSuites/PlaceOrder.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DemoBlaze" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/TestSuites/PlaceOrder.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HomePageUiTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FullNegativeScenario.placeOrderWithEmptyCart" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoBlaze" />
       <extension name="coverage">
         <pattern>
@@ -206,7 +219,43 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.HomePageUiTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.FullNegativeScenario" />
+      <option name="METHOD_NAME" value="placeOrderWithEmptyCart" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlaceOrderTest.placeOrderWithEmptyCart" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemoBlaze" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.PlaceOrderTest" />
+      <option name="METHOD_NAME" value="placeOrderWithEmptyCart" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="e2ePositiveScenario2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemoBlaze" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.e2ePositiveScenario2" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -215,19 +264,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.AboutUsTest.isVideoPlayed" />
-      <item itemvalue="TestNG.D:/New folder (3)/DemoBlaze/src/test/TestSuites/HomeUiTesting.xml" />
-      <item itemvalue="TestNG.D:/New folder (3)/DemoBlaze/src/test/TestSuites/HomeUi_Contact_AboutUs.xml" />
-      <item itemvalue="TestNG.D:/New folder (3)/DemoBlaze/src/test/TestSuites/PlaceOrder.xml" />
-      <item itemvalue="TestNG.HomePageUiTest" />
+      <item itemvalue="TestNG.FullNegativeScenario" />
+      <item itemvalue="TestNG.FullNegativeScenario.PlaceOrderWithEmptyData" />
+      <item itemvalue="TestNG.FullNegativeScenario.placeOrderWithEmptyCart" />
+      <item itemvalue="TestNG.PlaceOrderTest.placeOrderWithEmptyCart" />
+      <item itemvalue="TestNG.e2ePositiveScenario2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.D:/New folder (3)/DemoBlaze/src/test/TestSuites/PlaceOrder.xml" />
-        <item itemvalue="TestNG.D:/New folder (3)/DemoBlaze/src/test/TestSuites/HomeUi_Contact_AboutUs.xml" />
-        <item itemvalue="TestNG.HomePageUiTest" />
-        <item itemvalue="TestNG.D:/New folder (3)/DemoBlaze/src/test/TestSuites/HomeUiTesting.xml" />
-        <item itemvalue="TestNG.AboutUsTest.isVideoPlayed" />
+        <item itemvalue="TestNG.FullNegativeScenario" />
+        <item itemvalue="TestNG.FullNegativeScenario.PlaceOrderWithEmptyData" />
+        <item itemvalue="TestNG.e2ePositiveScenario2" />
+        <item itemvalue="TestNG.FullNegativeScenario.placeOrderWithEmptyCart" />
+        <item itemvalue="TestNG.PlaceOrderTest.placeOrderWithEmptyCart" />
       </list>
     </recent_temporary>
   </component>
@@ -240,6 +289,17 @@
       <updated>1750616282257</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -260,15 +320,53 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/tests/e2eScenario.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="8" />
+          <url>file://$PROJECT_DIR$/src/main/java/pageobjects/AboutUsPage.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/e2ePositiveScenario.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/e2ePositiveScenario2.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pageobjects/PlaceOrderPage.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/FullNegativeScenario.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/test/java/base/BaseTest</url>
           <line>18</line>
           <properties field="wait" class="base.BaseTest" />
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/AddToCartTest.java</url>
+          <line>33</line>
+          <properties class="tests.AddToCartTest" method="verifyProductIsPresent">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/pageobjects/PlaceOrderPage.java</url>
+          <line>72</line>
+          <properties class="pageobjects.PlaceOrderPage" method="clickConfirmBtn">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -34,10 +34,10 @@ public class AddProducts {
         js.executeScript("arguments[0].scrollIntoView(true);", driver.findElement(firstProduct));
 
         // choose first item
-        wait.until(ExpectedConditions.elementToBeClickable(firstProduct)).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(firstProduct)).click();
 
         // add item
-        wait.until(ExpectedConditions.elementToBeClickable(addProduct)).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(addProduct)).click();
 
         // accept alert
         wait.until(ExpectedConditions.alertIsPresent());

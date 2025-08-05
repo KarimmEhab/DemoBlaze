@@ -22,7 +22,7 @@ public class PlaceOrderPage {
     private final By year = By.id("year");
     private final By purchaseBtn = By.cssSelector("button[onclick='purchaseOrder()']");
     private final By confirmMsg = By.cssSelector(".sweet-alert h2");
-    private final By confirmBtn = By.cssSelector("button[class*='confirm']");
+    private final By confirmBtn = By.cssSelector("button.confirm");
     private final By closeBtn = By.xpath("//div[@id='orderModal']//button[text()='Close']");
 
     public PlaceOrderPage(WebDriver driver){
@@ -32,12 +32,12 @@ public class PlaceOrderPage {
 
     //=================== ACTIONS ====================
     public void clickPlaceOrder(){
-        wait.until(ExpectedConditions.elementToBeClickable(placeOrderBtn)).click();
-        wait.until(ExpectedConditions.elementToBeClickable(name));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(placeOrderBtn)).click();
+     //  wait.until(ExpectedConditions.visibilityOfElementLocated(name));
     }
 
     public void fillOrderForm(String name, String country, String city, String card, String month, String year){
-        wait.until(ExpectedConditions.elementToBeClickable(this.name)).sendKeys(name);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(this.name)).sendKeys(name);
         driver.findElement(this.country).sendKeys(country);
         driver.findElement(this.city).sendKeys(city);
         driver.findElement(this.card).sendKeys(card);
@@ -73,4 +73,6 @@ public class PlaceOrderPage {
     public void clickConfirmBtn(){
         driver.findElement(confirmBtn).click();
     }
+
+
 }

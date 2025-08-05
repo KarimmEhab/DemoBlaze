@@ -27,12 +27,12 @@ public class ContactPage {
     // =================== ACTIONS ===============================
 
     public void clickContact(){
-        driver.findElement(contactLink).click();
+        wait.until(ExpectedConditions.elementToBeClickable(contactLink)).click();
         wait.until(ExpectedConditions.visibilityOfElementLocated(email));
     }
 
     // fill the message form
-    public void newMsgForm(String email, String name, String message){
+    public void fillMsgForm(String email, String name, String message){
         driver.findElement(this.email).sendKeys(email);
         driver.findElement(this.name).sendKeys(name);
         driver.findElement(this.message).sendKeys(message);
@@ -47,6 +47,8 @@ public class ContactPage {
     public String alertMsg(){
         wait.until(ExpectedConditions.alertIsPresent());
         Alert alert = driver.switchTo().alert();
-        return alert.getText();
+        String text = alert.getText();
+        alert.accept();
+        return text;
     }
 }
